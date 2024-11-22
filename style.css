@@ -1,0 +1,45 @@
+*{
+    font-family: 'Roboto', 'sans-serif';
+}
+#header{
+    background-color: rgba(168, 166, 166, 0.911);
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+}
+#nameAndTitle{
+    text-align: center;
+    color: #000000;
+    width: 400px;
+    background-color: white;
+    margin: 0 auto
+}
+h1, h2, h3{
+    text-transform: uppercase;
+}
+#nameAndTitle h1,h2{
+    margin: 0;
+}
+#contato{
+    list-style-type: none;
+}
+#contato i{
+    width: 30px;
+    color:  rgba(168, 166, 166, 0.911)
+}
+#container{
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-column-gap: 20px ;
+}
+#sidebar, #content{
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.card{
+    border: solid 1px gray;
+    border-radius: 15px;
+    padding: 20px;
+}
